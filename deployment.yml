@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: hotstar-deployment
+  namespace: default
 spec:
   replicas: 1  # Number of desired replicas
   selector:
@@ -16,4 +17,4 @@ spec:
       - name: hotstar
         image: manikonduru/hotstar:latest
         ports:
-        - containerPort: 3000 
+        - containerPort: 4000 
