@@ -17,4 +17,4 @@ spec:
       - name: hotstar
         image: manikonduru/hotstar:latest
         ports:
-        - containerPort: 4000 
+        - containerPort: 3000 
